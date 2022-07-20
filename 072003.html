@@ -8,13 +8,15 @@
     <title>Document</title>
     <!-- bs -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     
     <!-- nav -->
     <!-- 補充 navbar 加入 『fixed-top』可以把導覽列表定在最上面 -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#">導覽列表</a>
+        <a class="navbar-brand" href="#"><i class="fa-solid fa-globe"></i>&nbsp;Hello</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -25,13 +27,13 @@
               <a class="nav-link" href="#card">卡片區 <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#map">地圖</a>
+              <a class="nav-link" href="#map"><i class="fa-solid fa-map-location-dot"></i>&nbsp;地圖</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#Carousel">幻燈片</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#page">文字內容</a>
+              <a class="nav-link" href="#page"><i class="fa-solid fa-message"></i>&nbsp;文字內容</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
@@ -69,8 +71,8 @@
       <div class="container">
         <div class="row" id="card">
 
-            <div class="col-3">
-                <div class="card" style="width: 18rem;">
+            <div class="col-md-6 col-lg-3 ">
+                <div class="card">
                     <img src="https://picsum.photos/id/101/150/150" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
@@ -80,8 +82,8 @@
                 </div>
             </div>
 
-            <div class="col-3">
-                <div class="card" style="width: 18rem;">
+            <div class="col-md-6 col-lg-3 ">
+                <div class="card">
                     <img src="https://picsum.photos/id/103/150/150" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -91,8 +93,8 @@
                 </div>
             </div>
 
-            <div class="col-3">
-                <div class="card" style="width: 18rem;">
+            <div class="col-md-6 col-lg-3 ">
+                <div class="card">
                     <img src="https://picsum.photos/id/109/150/150" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -102,8 +104,8 @@
                 </div>
             </div>
 
-            <div class="col-3">
-                <div class="card" style="width: 18rem;">
+            <div class="col-md-6 col-lg-3 ">
+                <div class="card">
                     <img src="https://picsum.photos/id/106/150/150" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -121,6 +123,8 @@
         <div class="container">
             <div class="row" id="map">
                 <div class="col-6">
+                    <div class="h3 text-danger"><b>明志科大</b></div>
+                    <hr>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem commodi consectetur distinctio eos aperiam ut impedit iusto dolorum, quam cum iure quidem dicta id alias similique minima consequatur beatae recusandae fuga corrupti nesciunt deserunt temporibus nulla? Laudantium quis molestias quisquam, excepturi nam est repellat. Explicabo nobis atque et modi ea blanditiis quos deserunt quibusdam vitae cum. Provident sunt praesentium officiis ullam tempora odit, perspiciatis possimus, voluptates totam, quo esse alias quos! Enim sint eos quas ea fugiat earum veniam ipsum!</p>
                 </div>
                 <div class="col-6">
